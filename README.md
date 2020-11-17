@@ -6,7 +6,7 @@ Módulo que adiciona ao GeoNetwork a funcionalidade de limitar as pesquisas ráp
 
 ### Versão do GeoNetwork a utilizar com este módulo
 
-A utilização deste módulo exige que seja utilizada a versão adaptada do GeoNetwork para o SNIG (https://github.com/ricardogsena/core-geonetwork.git). Esta adaptação foi desenvolvida com base no GeoNetwork 3.4.x.
+A utilização deste módulo exige que seja utilizada a versão adaptada do GeoNetwork para o SNIG (https://github.com/wktsi/core-geonetwork). Esta adaptação foi desenvolvida com base no GeoNetwork 3.4.x.
 
 ### Adicionar o módulo ao código fonte
 
@@ -20,7 +20,7 @@ cd core-geonetwork
 ```
 2. Adicionar o módulo como submódulo do projeto 
 ```
-git submodule add -b 3.4.x https://github.com/ricardogsena/snig-services.git snig-services
+git submodule add -b 3.4.x https://github.com/wktsi/snig-services.git snig-services
 ```
 3. Adicionar o módulo ao ficheiro pom.xml (core-geonetwork/pom.xml)
 ```
